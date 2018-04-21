@@ -31,7 +31,7 @@ main {
 
 #quiz-wrapper{
   display: flex;
-  flex-direction: column;
+  flex: column;
   align-items: center;
   justify-content: space-around;
 }
@@ -65,6 +65,6 @@ input{
 }
 @media screen and (min-width: 768px){
   #quiz-wrapper {
-    flex-direction: row;
+  
   }
 }
